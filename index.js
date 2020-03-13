@@ -25,6 +25,9 @@ var prayers = [
     are working in my life is what is best.",
     "LORD, let my life be a light that shines before others, so that they may see Your good works and give glory to You (Matthew 5)",
     "LORD, let me be quick to listen, slow to speak, and slow to anger (James 1:19)",
+    "LORD, break my heart for what breaks Yours.",
+    "LORD, stir in me. I want to build Your church. Give me the strength to serve.",
+    "Stir in me, LORD, so that I may in great abundance bring forth the fruit of good works that You have called me to produce",
 ]
 let  displayPrayer = () => {
     var randomNumber = Math.floor(Math.random() * prayers.length);
