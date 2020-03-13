@@ -1,11 +1,11 @@
-html, body {
+body {
     overflow-x: hidden;
     overflow-y: hidden; 
     height: 100%;
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image: url("background.jpg");
+    background-image: url("./images/background3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

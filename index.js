@@ -72,3 +72,19 @@ let startDate = () => {
     var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     document.getElementById("date").innerHTML = days[d.getDay()]+" | "+[d.getMonth()+1]+"/"+d.getDate()+"/"+d.getFullYear();
   }
+
+
+  var images = ['background3.jpg', 'background1.jpg', 'background2.jpg'];
+  var randomImg = images[Math.floor(Math.random() * images.length)];
+
+  window.onload = function () {
+      startDate();
+      startTime();
+      document.body.style.backgroundImage = `url('images/${this.randomImg}')`;
+      this.console.log(this.randomImg);
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundPosition = "top";
+      document.body.style.backgroundSize = "cover";
+  }
+
+ 
