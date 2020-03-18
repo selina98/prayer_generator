@@ -92,12 +92,12 @@ html,body {
   }
   
   .container {
-    padding-top: 13em;
+    padding-top: 12em;
     text-align: center;
   }
   
   #b-nav {
-    padding-bottom: 13em;
+    padding-bottom: 12em;
     position: fixed;
     width: 100%;
     bottom: 2em;

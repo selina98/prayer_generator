@@ -28,7 +28,17 @@ var prayers = [
     "LORD, break my heart for what breaks Yours.",
     "LORD, stir in me. I want to build Your church. Give me the strength to serve.",
     "Stir in me, LORD, so that I may in great abundance bring forth the fruit of good works that You have called me to produce",
-    "LORD, let my heart be overwhelmed and humbled by Your steadfast love and faithfulnes"
+    "LORD, let my heart be overwhelmed and humbled by Your steadfast love and faithfulness",
+    "LORD, please dwell in our hearts so that we may be rooted and grounded in love. We want to know the love of\
+    Christ that surpasses all knowlede, and be filled with the fullness of God (Eph. 3:17-18)",
+    "LORD Almighty, help me stand firm and to always give myself fully to your work, because I know that my labour in the LORD is not in vain. (1 Corinthians 15:58)",
+    "LORD, bless the church and it's people. We are far from perfect but we know that Your Spirit is with us and will guide us. We pray that the\
+    church would not be discouraged from doing Your will and will remain in constant awe of Your glory",
+    "LORD, we pray for the lost sheep. We know that You would leave the 99 to collect the 1, so\
+    we pray that those who have wandered will return to Your loving embrace",
+    "LORD, we are broken people. You said that You will be merciful to our iniquities and will remember our sins no more (Hebrews 8). So\
+    we pray for repentance and for Your grace to wash over us",
+    ""
 ]
 let  displayPrayer = () => {
     var randomNumber = Math.floor(Math.random() * prayers.length);
