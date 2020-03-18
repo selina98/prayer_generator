@@ -28,6 +28,7 @@ var prayers = [
     "LORD, break my heart for what breaks Yours.",
     "LORD, stir in me. I want to build Your church. Give me the strength to serve.",
     "Stir in me, LORD, so that I may in great abundance bring forth the fruit of good works that You have called me to produce",
+    "LORD, let my heart be overwhelmed and humbled by Your steadfast love and faithfulnes"
 ]
 let  displayPrayer = () => {
     var randomNumber = Math.floor(Math.random() * prayers.length);
